@@ -1,0 +1,143 @@
+DIABETES PREDICTION USING MACHINE LEARNING
+
+====================================================
+
+## PROJECT OVERVIEW
+
+This project is a Machine Learning-based Diabetes Prediction System developed using Python and Support Vector Machine (SVM). The model predicts whether a person is diabetic or not based on medical attributes.
+
+The system uses the following input features:
+
+* Pregnancies
+* Glucose Level
+* Blood Pressure
+* Skin Thickness
+* Insulin
+* BMI
+* Diabetes Pedigree Function
+* Age
+
+The model predicts whether the person is diabetic or non-diabetic.
+
+====================================================
+
+## TECHNOLOGIES USED
+
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+
+====================================================
+
+## LIBRARIES USED
+
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn.metrics import accuracy_score
+
+====================================================
+
+## DATASET
+
+Dataset Name:
+diabetes.csv
+
+The dataset contains medical records of patients and their diabetes outcomes.
+
+====================================================
+
+## MACHINE LEARNING ALGORITHM
+
+This project uses:
+
+Support Vector Machine (SVM)
+
+classifier = svm.SVC(kernel='linear')
+
+====================================================
+
+## PROJECT WORKFLOW
+
+1. Load the dataset
+2. Analyze the data
+3. Separate features and labels
+4. Standardize the data
+5. Split training and testing data
+6. Train the SVM model
+7. Evaluate model accuracy
+8. Predict diabetes for new input data
+
+====================================================
+
+## ACCURACY
+
+The model calculates:
+
+* Training Data Accuracy
+* Testing Data Accuracy
+
+using accuracy_score().
+
+====================================================
+
+## SAMPLE PREDICTION
+
+Input Data:
+(5,166,72,19,175,25.8,0.587,51)
+
+Possible Outputs:
+
+* The person is diabetic
+* The person is not diabetic
+
+====================================================
+
+## HOW TO RUN THE PROJECT
+
+Step 1: Clone the Repository
+
+git clone https://github.com/your-username/diabetes-prediction.git
+
+Step 2: Install Required Libraries
+
+pip install numpy pandas scikit-learn
+
+Step 3: Run the Python File
+
+python diabetes_prediction.py
+
+====================================================
+
+## PROJECT STRUCTURE
+
+Diabetes-Prediction/
+|
+|-- diabetes.csv
+|-- diabetes_prediction.py
+|-- README.md
+
+====================================================
+
+## FUTURE IMPROVEMENTS
+
+* Add GUI using Tkinter or Streamlit
+* Deploy model on web
+* Improve model accuracy
+* Add more ML algorithms
+
+====================================================
+
+## AUTHOR
+
+Hussain Ahmad
+
+Student of Computer Science 
+Interested in Artificial Intelligence and Machine Learning
+
+====================================================
+
+
